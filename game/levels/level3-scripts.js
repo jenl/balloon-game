@@ -8,6 +8,8 @@ levels[2].scripts = {
 		Level.parameters.won=false;	
         document.getElementById("level02").volume = 0;
         document.getElementById("level02").pause();
+        document.getElementById("level02_cat").volume = 0;
+        document.getElementById("level02_cat").pause();
         document.getElementById("level03_waterfall").volume = 0;
         document.getElementById("level03_waterfall").play();
         document.getElementById("level03").volume = 1;

@@ -7,7 +7,8 @@ levels[0] = {
 
     parameters : {
 	panHeight : -150,
-	inventory : []
+	inventory : [],
+    hasMetGirl : false
     },
 
     triggers : {

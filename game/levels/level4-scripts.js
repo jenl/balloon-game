@@ -4,6 +4,10 @@ levels[3].scripts =
     {
         document.getElementById("level03").volume = 0;
         document.getElementById("level03").pause();
+        document.getElementById("level03_waterfall").volume = 0;
+        document.getElementById("level03_waterfall").pause();
+        document.getElementById("level04").volume = 1;
+        document.getElementById("level04").play();
     	Level.Scripts.lookAtBalloonStand();
         buoyancy = -0.3;
     },

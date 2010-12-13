@@ -70,7 +70,7 @@ levels[0].scripts = {
 	    if (distance < radius)
 		{
 		    document.getElementById("level01_circus").volume = 1 - (distance / radius);
-            if (Level.parameters.hasMetGirl = true)
+            if (Level.parameters.hasMetGirl == true)
             {
                 document.getElementById("level01_end").volume = (distance / radius);
             }

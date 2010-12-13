@@ -64,5 +64,7 @@ levels[4].scripts = {
     	Level.Scripts.lookAtBalloonStand();
         document.getElementById("level05").volume = 0.8;
         document.getElementById("level05").play();
+        document.getElementById("level04").volume = 0;
+        document.getElementById("level04").pause();
     }
 }
